@@ -35,7 +35,6 @@ class Point {
     }
 }
 
-/** 定义 TextPoints 类 */
 class TextPoints {
     constructor(text, x, y, fontSize, sampleFactor) {
         this.points = font.textToPoints(text, x, y, fontSize, { sampleFactor });
